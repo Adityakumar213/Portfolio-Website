@@ -1,0 +1,227 @@
+
+ body {
+  padding-top: 80px;    /* navbar height ke hisab se */
+}
+ 
+ 
+ .navbar-nav{
+    margin-right:5rem;
+} 
+
+.btn-style{
+    background-color: rgb(228, 81, 224) ;
+    border-radius: 0.4rem;
+}
+.head{
+    font-size: 3rem;
+    font-weight:bold;
+   padding-top: 5rem;
+    padding-left: 3rem;
+    line-height: 1.1;
+}
+.name{
+    padding-left: 5rem;
+    font-size: 3rem;
+     font-weight: bolder;
+}
+
+.head {
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 2rem;
+  width: 0;
+  animation: typing 5s steps(30, end) forwards,
+             blink .7s infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 30rem; } 
+}
+
+
+.para1{
+    font-size: 1rem;
+    padding-left: 3rem;
+   
+   
+}
+.image{
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    padding-top: 1rem;
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+    padding-right: 3rem;
+    border-radius: 1.2rem;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.50);
+   
+
+    
+}
+
+
+.rohit{
+    margin-left: 5rem;
+    
+}
+
+.border1{
+   border-radius: 0.4rem;
+    background-color: rgb(236, 177, 234);
+    
+}
+.border2{
+   border-radius: 0.4rem;
+    background-color: rgb(236, 177, 234);
+}
+.border3{
+  border-radius: 0.4rem;
+    background-color: rgb(236, 177, 234);
+}
+
+.gradient-row{
+    background: linear-gradient(to left, #cca8df, #618ce3,white,white);
+}
+
+.coustom-card{
+    border-radius: 1.5rem;
+     box-shadow: 0 1rem 2rem rgb(113, 111, 111);
+     background: linear-gradient(45deg, #a2d48f, white, #e5ade9,white,white,white);
+}
+
+.row1{
+    border-radius: 0.4rem;
+    
+    background:linear-gradient(to bottom, gray, gray,rgb(65, 64, 64), rgb(117, 22, 22));
+}
+.font{
+    font-size: 0.9rem;
+}
+.row2{
+     border-radius: 0.4rem;
+    background:linear-gradient(to bottom, gray, gray,rgb(54, 144, 223));
+
+}
+.row3{
+    background:linear-gradient(to bottom, rgb(162, 159, 159), rgb(100, 96, 96),rgb(78, 192, 78));
+     border-radius: 0.4rem;
+}
+.row4{
+    background:linear-gradient(to bottom, rgb(162, 159, 159), rgb(100, 96, 96),rgb(197, 143, 42));
+     border-radius: 0.4rem;
+}
+.row5{
+    background:linear-gradient(to bottom, rgb(162, 159, 159), rgb(100, 96, 96),rgb(230, 226, 15));
+     border-radius: 0.4rem;
+}
+.row6{
+    background:linear-gradient(to bottom, rgb(162, 159, 159), rgb(100, 96, 96),rgb(196, 29, 162));
+     border-radius: 0.4rem;
+}
+.project-sticky{
+    position: sticky;
+    top: 0px;
+}
+
+
+
+    /* html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #000;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    } */
+
+    .swiper {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 300px;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+    }
+
+
+    .ram{
+      font-size: 0.8rem;
+      font-weight: lighter;
+    }
+
+    .neha {
+  position: relative;
+  top: 6rem;
+  z-index: 10;
+}
+
+.ranjan{
+  position: relative;
+  z-index: 1;
+  
+}
+.footer{
+  background:linear-gradient( to bottom,black, black,black,black, rgb(82, 82, 226));
+}
+
+.neha{
+position: relative;
+z-index: 5;
+background:linear-gradient(45deg,rgb(139, 203, 228),white,white, rgb(185, 233, 235),white,white);
+}
+
+.priti{
+  position: relative;
+  z-index: 8;
+  bottom: 6rem;
+  box-shadow:0 1rem 2rem rgba(15, 2, 2, 0.5);
+  background: linear-gradient( 45deg,rgb(139, 203, 228),white,rgb(185, 233, 235), white,white);
+
+  
+}
+.tenth:hover{
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+ 
+}
+.contact:hover{
+  transform: translateY(-8px);
+  
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(13,110,253,0.3);
+}
+.mern:hover{
+   box-shadow: 0 0 50px rgba(9, 86, 202, 0.3);
+   transform: translateX(-8px);
+
+}
+.icon:hover {
+  color: #d959b7;
+  transform: scale(1.9);
+}
+#skills{
+  scroll-margin-top: 3rem;
+}
+/* .neha:hover{
+  transform: scale(1.03);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+} */
+
+
